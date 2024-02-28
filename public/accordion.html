@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Accordion Collapse Example</title>
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"/>
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body class="container-fluid">
+<div class="accordion" id="pclpl">
+    <div class="accordion-item">
+        <div class="accordion-header text-center bg-danger mt-2">
+<button data-bs-toggle="collapse" data-bs-target="#clp1" class="btn btn-danger">What is Netflix?
+</button>
+        </div>
+<div class="accordion-item">
+<div class="accordion-body">
+    <P class="accordion-collapse collapse" id="clp1" data-bs-Parent="#pclpl">
+        Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+    </P>
+</div>
+</div>
+<div class="accordion-item">
+    <div class="accordion-header text-center bg-primary">
+    <button data-bs-toggle="collapse" data-bs-target="#clpl2" class="btn btn-primary mt-2 ">How much does Netflix cost?</button>
+    </div>
+    </div>
+<div class="accordion-item">
+<div class="accordion-body">
+<p class="accordion-collapse collapse text-center" id="clpl2" data-bs-Parent="#pclpl">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee.<br>
+     Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.
+</p>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header text-center bg-success">
+<button data-bs-toggle="collapse"  data-bs-target="#clpl4" class="btn btn-success">Where can I watch?
+</button>
+<div class="accordion-item">
+<div class="accordion-body" >
+<p class="text-center accordion-collapse collapse" id="clpl4" data-bs-Parent="#pclpl">
+    Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com
+    from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+    <br>
+    You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. 
+    Take Netflix with you anywhere.
+</p>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-header text-center bg-secondary">
+<button data-bs-toggle="collapse"  data-bs-target="#clpl5" class="btn btn-secondary">How do I cancel?</button>
+</div>
+</div>
+<div class="accordion-item">
+<div class="accordion-body">
+<p class="accordion-collapse collapse" data-bs-Parent="#pclpl" id="clpl5">
+Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks.
+ There are no cancellation fees – start or stop your account anytime.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

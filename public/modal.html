@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Modal Component</title>
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"/>
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+    </head>
+    <body class="container-fluid text-center mt-4">
+
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#md">Button</button>
+<div class="modal fade" id="md">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+    <div>
+        <div class="bg-danger rounded rounded-4 w-50 h-50 m-auto" >
+<div class="mt-4 text-white p-4 ">
+    <h2 class="mb-2">Login form</h2>
+<label class="form-label"> Enter Username</label>
+<input type="text" class="form-control"><br>
+<label class="form-label">Enter Password </label>
+<input type="password" class="form-control"><br>
+<div class="input-group">
+<input type="text" class="form-control input-group-text">
+<button class="btn btn-warning bi bi-search"> </button>
+</div><br>
+<div class="input-group">
+<button class="bi bi-eye-slash btn btn-warning text-dark"></button>
+<input type="password" class="form-control">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
